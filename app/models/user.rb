@@ -1,6 +1,6 @@
 class User < ApplicationRecord
 
-  def self.create_from_request(request)
+  def self.find_or_create_from_request(request)
     user = User.find_or_create_by(uid: request["omniauth.auth"]["uid"])
     info = request["omniauth.auth"]["info"]
     user.name = info["name"]
