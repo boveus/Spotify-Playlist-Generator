@@ -21,3 +21,16 @@ Test slider
 >
 <input type='submit' value='submit' />
 </form>
+
+
+<h3>Top 20 artists</h3>
+<% @top_artists["items"].each_with_index do |artist, index| %>
+<tr>
+   <td><%= (index + 1) %> : <%= artist["name"] %></td>
+   <br />
+</tr>
+<% end %>
+
+<!--  @top_artists["items"].second["images"].second[
+"url"]
+=> "http -->
