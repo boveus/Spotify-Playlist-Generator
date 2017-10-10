@@ -37,6 +37,7 @@ gem 'rspec'
 gem 'rspec-rails', '~> 3.6'
 gem 'database_cleaner'
 gem 'figaro'
+gem 'postman-ruby'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
