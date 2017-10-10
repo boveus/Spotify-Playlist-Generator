@@ -24,9 +24,9 @@ Test slider
 
 
 <h3>Top 20 artists</h3>
-<% @top_artists["items"].each_with_index do |artist, index| %>
+<% @top_artists.each_with_index do |artist, index| %>
 <tr>
-   <td><%= (index + 1) %> : <%= artist["name"] %></td>
+   <td><%= (index + 1) %> : <%= artist.name %></td>
    <br />
 </tr>
 <% end %>
