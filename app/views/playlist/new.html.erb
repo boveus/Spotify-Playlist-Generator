@@ -1,0 +1,108 @@
+<h3>Create A Playlist!</h3>
+
+<form action="/dashboard/create_playlist" method="post">
+<p>Acousticness</p>
+<input
+    id="acousticness_slider"
+    type="range"
+    min="1"
+    max="100"
+    step="1"
+    name="acousticness"
+>
+<br />
+<p>Danceability</p>
+<input
+    id="danceability_slider"
+    type="range"
+    min="1"
+    max="100"
+    step="1"
+    name="danceability"
+>
+<br />
+<p>Duration</p>
+<input
+    id="duration_ms_slider"
+    type="range"
+    min="1"
+    max="100"
+    step="1"
+    name="duration"
+>
+<br />
+<p>Energy</p>
+<input
+    id="energy_slider"
+    type="range"
+    min="1"
+    max="100"
+    step="1"
+    name="energy"
+>
+<br />
+<p>Instrumentalness</p>
+<input
+    id="instrumentalness_slider"
+    type="range"
+    min="1"
+    max="100"
+    step="1"
+    name="instrumentalness"
+>
+<p>Key</p>
+<input
+    id="key_slider"
+    type="range"
+    min="1"
+    max="100"
+    step="1"
+    name="key"
+>
+<p>Liveness</p>
+<input
+    id="liveness_slider"
+    type="range"
+    min="1"
+    max="100"
+    step="1"
+    name="liveness"
+>
+<p>Loudness</p>
+<input
+    id="loudness_slider"
+    type="range"
+    min="1"
+    max="100"
+    step="1"
+    name="loudness"
+>
+<p>Mode</p>
+<input
+    id="mode_slider"
+    type="range"
+    min="1"
+    max="100"
+    step="1"
+    name="mode"
+>
+<p>Popularity</p>
+<input
+    id="popularity_slider"
+    type="range"
+    min="1"
+    max="100"
+    step="1"
+    name="popularity"
+>
+<p> Playlist Name</p>
+<input
+    id="playlist_name_field"
+    type="text"
+    name="playlist_name"
+>
+<br />
+<input id="number_of_songs_field" type="number" name="number_of_songs" min="1" max="100" value="20">
+<br />
+<input type='submit' value='Generate Playlist' class="btn-btn-danger" />
+</form>

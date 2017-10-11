@@ -7,6 +7,5 @@ class DashboardController < ApplicationController
     @top_tracks = TrackSearch.new(top_tracks_raw).top_tracks
   end
 
-  def create_playlist
-  end
+
 end
