@@ -1,6 +1,7 @@
 class SpotifyService
-  def initialize(token)
+  def initialize(token, recommendations_query = nil)
     @token = token
+    @recommendations_query = recommendations_query
   end
 
   def request(api_path, token)
@@ -14,5 +15,12 @@ class SpotifyService
 
   def request_user_top_artists
     request("v1/me/top/artists", @token)
+  end
+
+  def request_recommendations
+    headers =  { "Authorization" => "Bearer #{@token}"}
+    HTTParty.get("https://api.spotify.com/recommendations",
+    :query => @recommendations_query,
+    :headers => headers)
   end
 end

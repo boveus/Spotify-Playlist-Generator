@@ -6,7 +6,7 @@ RSpec.configure do |config|
     OmniAuth.config.test_mode = true
     OmniAuth.config.mock_auth[:spotify] = {
      "info" => {
-       "name" => 'Bobby Huggins',
+       "name" => 'Bob Huggins',
        "email" => 'Bobby@thegmails.com',
        "image" => 'capybarawontseeitanyway.jpg'
      },
@@ -26,6 +26,9 @@ RSpec.configure do |config|
 
     stub_request(:get, 'https://api.spotify.com/v1/me/top/tracks')
     .to_return(body: fixture('top_tracks.json'), headers: {content_type: 'application/json; charset=utf-8'})
+
+    stub_request(:get, "https://api.spotify.com/recommendations?acousticness=36&danceability=73&duration=20&energy=99&instrumentalness=20&key=76&limit=15&liveness=1&loudness=99&mode=34&popularity=8")
+    .to_return(body: fixture('recommended_tracks.json'), headers: {content_type: 'application/json; charset=utf-8'})
   end
   config.expect_with :rspec do |expectations|
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
@@ -34,7 +37,7 @@ RSpec.configure do |config|
   config.mock_with :rspec do |mocks|
     mocks.verify_partial_doubles = true
   end
-
+  
   def fixture_path
 	  File.expand_path('../fixtures', __FILE__)
 	end
