@@ -12,13 +12,4 @@ class Track
     @image_path = image_path
     @track_id = track_id
   end
-
-
-  def self.top_tracks(top_tracks)
-    top_tracks["items"].map do |track|
-      Track.new(track["name"], track["artists"].first["name"],
-         track["album"]["name"], track["album"]["images"].third["url"],
-          track["id"])
-    end
-  end
 end
