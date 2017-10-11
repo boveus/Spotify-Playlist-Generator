@@ -36,7 +36,7 @@ Test slider
 <% @top_tracks.each_with_index do |track, index| %>
 <tr>
   <% num = index + 1 %>
-   <td class=top_track id=top_track_<%= num %>><%= num %> : <%= track.name %></td>
+   <td class=top_track id=top_track_<%= num %>><%= num %> : <%= "#{track.name} by #{track.artist}"%></td>
    <br />
 </tr>
 <% end %>
