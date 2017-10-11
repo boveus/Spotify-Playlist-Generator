@@ -26,11 +26,19 @@ Test slider
 <h3>Top 20 artists</h3>
 <% @top_artists.each_with_index do |artist, index| %>
 <tr>
-   <td><%= (index + 1) %> : <%= artist.name %></td>
+  <% num = index + 1 %>
+   <td class=top_artist id=top_artist_<%= num %>><%= num %> : <%= artist.name %></td>
    <br />
 </tr>
 <% end %>
 
-<!--  @top_artists["items"].second["images"].second[
-"url"]
-=> "http -->
+<h3>Top 20 tracks</h3>
+<% @top_tracks.each_with_index do |track, index| %>
+<tr>
+  <% num = index + 1 %>
+   <td class=top_track id=top_track_<%= num %>><%= num %> : <%= track.name %></td>
+   <br />
+</tr>
+<% end %>
+
+<%= link_to "Create Playlists", create_playlist_path %>

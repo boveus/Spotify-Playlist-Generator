@@ -4,6 +4,19 @@ WebMock.disable_net_connect!(allow_localhost: true)
 RSpec.configure do |config|
 
   config.before(:each) do
+    OmniAuth.config.test_mode = true
+    OmniAuth.config.mock_auth[:spotify] = {
+   "info" => {
+     "name" => 'Bobby Huggins',
+     "email" => 'Bobby@thegmails.com',
+     "image" => 'capybarawontseeitanyway.jpg'
+   },
+   "credentials" => {
+     "token" => "3jdewidjiew0",
+     "refresh_token" => "hamburgler",
+     "expires_at" => 14232525,
+         }
+       }
     stub_request(:get, /api.spotify.com/).
       with(headers: {'Accept'=>'*/*', 'User-Agent'=>'Ruby'}).
       to_return(status: 200, body: "stubbed response", headers: {})

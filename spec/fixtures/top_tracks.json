@@ -1,0 +1,1096 @@
+{
+  "items" : [ {
+    "album" : {
+      "album_type" : "ALBUM",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/5XGRiFmZOsCy6ZqRFG5d6t"
+      },
+      "href" : "https://api.spotify.com/v1/albums/5XGRiFmZOsCy6ZqRFG5d6t",
+      "id" : "5XGRiFmZOsCy6ZqRFG5d6t",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/1371fc74c9635a22b5eb5a6d6c09cc4811c55fbd",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/abdbc570b2d88ebf43ca74a95666b25d6f2de4e5",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/0026d86ef0db6dad8b1dac0d4528063b34da4dfd",
+        "width" : 64
+      } ],
+      "name" : "Flight of The Ancients",
+      "type" : "album",
+      "uri" : "spotify:album:5XGRiFmZOsCy6ZqRFG5d6t"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/5zcJp5jvssOgZXcxI1wuWe"
+      },
+      "href" : "https://api.spotify.com/v1/artists/5zcJp5jvssOgZXcxI1wuWe",
+      "id" : "5zcJp5jvssOgZXcxI1wuWe",
+      "name" : "The Shaolin Afronauts",
+      "type" : "artist",
+      "uri" : "spotify:artist:5zcJp5jvssOgZXcxI1wuWe"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 386746,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "GBJSH1128505"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/6k6JSwl4Xs9goFC8VZ098l"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/6k6JSwl4Xs9goFC8VZ098l",
+    "id" : "6k6JSwl4Xs9goFC8VZ098l",
+    "is_playable" : true,
+    "name" : "Kilimanjaro",
+    "popularity" : 40,
+    "preview_url" : "https://p.scdn.co/mp3-preview/d5e38f0d6dd38a4335b0e835bfcf23d99c113a59",
+    "track_number" : 5,
+    "type" : "track",
+    "uri" : "spotify:track:6k6JSwl4Xs9goFC8VZ098l"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/1fSKDjqkvMXg6cRSCBffL4"
+      },
+      "href" : "https://api.spotify.com/v1/albums/1fSKDjqkvMXg6cRSCBffL4",
+      "id" : "1fSKDjqkvMXg6cRSCBffL4",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/9ff778c49fe3861e716624f62b26e922bc3f3a29",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/f15c817efd75b47f38ce28a0d3b885415b882f3c",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/cf80e233f3a27af799b5c42da4284b73b42c0213",
+        "width" : 64
+      } ],
+      "name" : "Life Playing Tricks",
+      "type" : "album",
+      "uri" : "spotify:album:1fSKDjqkvMXg6cRSCBffL4"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/5dCpFeKxLbycrnsjWZjha8"
+      },
+      "href" : "https://api.spotify.com/v1/artists/5dCpFeKxLbycrnsjWZjha8",
+      "id" : "5dCpFeKxLbycrnsjWZjha8",
+      "name" : "Proleter",
+      "type" : "artist",
+      "uri" : "spotify:artist:5dCpFeKxLbycrnsjWZjha8"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 202698,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "FRPHC1700032"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/6KYJwCujR6Wir2rBGNvddL"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/6KYJwCujR6Wir2rBGNvddL",
+    "id" : "6KYJwCujR6Wir2rBGNvddL",
+    "is_playable" : true,
+    "name" : "Circus",
+    "popularity" : 35,
+    "preview_url" : "https://p.scdn.co/mp3-preview/5c3ac157819f16b1432422cabf9180bbce5e3d08",
+    "track_number" : 4,
+    "type" : "track",
+    "uri" : "spotify:track:6KYJwCujR6Wir2rBGNvddL"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/1fSKDjqkvMXg6cRSCBffL4"
+      },
+      "href" : "https://api.spotify.com/v1/albums/1fSKDjqkvMXg6cRSCBffL4",
+      "id" : "1fSKDjqkvMXg6cRSCBffL4",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/9ff778c49fe3861e716624f62b26e922bc3f3a29",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/f15c817efd75b47f38ce28a0d3b885415b882f3c",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/cf80e233f3a27af799b5c42da4284b73b42c0213",
+        "width" : 64
+      } ],
+      "name" : "Life Playing Tricks",
+      "type" : "album",
+      "uri" : "spotify:album:1fSKDjqkvMXg6cRSCBffL4"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/5dCpFeKxLbycrnsjWZjha8"
+      },
+      "href" : "https://api.spotify.com/v1/artists/5dCpFeKxLbycrnsjWZjha8",
+      "id" : "5dCpFeKxLbycrnsjWZjha8",
+      "name" : "Proleter",
+      "type" : "artist",
+      "uri" : "spotify:artist:5dCpFeKxLbycrnsjWZjha8"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 273266,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "FRPHC1700029"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/49Wj0mzPwKvFjhDgTQq1r6"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/49Wj0mzPwKvFjhDgTQq1r6",
+    "id" : "49Wj0mzPwKvFjhDgTQq1r6",
+    "is_playable" : true,
+    "name" : "Destiny",
+    "popularity" : 31,
+    "preview_url" : "https://p.scdn.co/mp3-preview/b6ba005e6b62bd66b1725836e50180e719dd75f6",
+    "track_number" : 1,
+    "type" : "track",
+    "uri" : "spotify:track:49Wj0mzPwKvFjhDgTQq1r6"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/70j8zJSXZm56lTCwAcwgh3"
+      },
+      "href" : "https://api.spotify.com/v1/albums/70j8zJSXZm56lTCwAcwgh3",
+      "id" : "70j8zJSXZm56lTCwAcwgh3",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/6b6025a40671cb541aa0d8e4e81f9813c5bdf75b",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/278112f71a6158f7347f848a88a633dea2aba656",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/38b9181cd72aa41a530f559180627d2aac7306d4",
+        "width" : 64
+      } ],
+      "name" : "Freedom No Go Die (Remastered)",
+      "type" : "album",
+      "uri" : "spotify:album:70j8zJSXZm56lTCwAcwgh3"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/0MiCOT2cVYso39XSskiUUo"
+      },
+      "href" : "https://api.spotify.com/v1/artists/0MiCOT2cVYso39XSskiUUo",
+      "id" : "0MiCOT2cVYso39XSskiUUo",
+      "name" : "The Souljazz Orchestra",
+      "type" : "artist",
+      "uri" : "spotify:artist:0MiCOT2cVYso39XSskiUUo"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 219424,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "uscgh1516483"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/3YE9CAyoMZY8yUzQCP8875"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/3YE9CAyoMZY8yUzQCP8875",
+    "id" : "3YE9CAyoMZY8yUzQCP8875",
+    "is_playable" : true,
+    "name" : "Insurrection (Remastered)",
+    "popularity" : 33,
+    "preview_url" : "https://p.scdn.co/mp3-preview/b50c66baca13364b509e58fcea49f017c6f35a1c",
+    "track_number" : 3,
+    "type" : "track",
+    "uri" : "spotify:track:3YE9CAyoMZY8yUzQCP8875"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/7GKzcJbW0Qernh0Xab1bIf"
+      },
+      "href" : "https://api.spotify.com/v1/albums/7GKzcJbW0Qernh0Xab1bIf",
+      "id" : "7GKzcJbW0Qernh0Xab1bIf",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/254a53e0c96b969e716003738a11ca53e983868c",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/1388a0f43bb650cae770867645bd24cb0cd7ab17",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/2804af24bd12eaa040ca996c36fa46173821c891",
+        "width" : 64
+      } ],
+      "name" : "The Aristocrats",
+      "type" : "album",
+      "uri" : "spotify:album:7GKzcJbW0Qernh0Xab1bIf"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/1V4jsLjkic1Mxvdke86Qth"
+      },
+      "href" : "https://api.spotify.com/v1/artists/1V4jsLjkic1Mxvdke86Qth",
+      "id" : "1V4jsLjkic1Mxvdke86Qth",
+      "name" : "The Aristocrats",
+      "type" : "artist",
+      "uri" : "spotify:artist:1V4jsLjkic1Mxvdke86Qth"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 353666,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "QMW2B1100003"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/5TzCDKy1ZmFZdW8100A8p9"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/5TzCDKy1ZmFZdW8100A8p9",
+    "id" : "5TzCDKy1ZmFZdW8100A8p9",
+    "is_playable" : true,
+    "name" : "Bad Asteroid",
+    "popularity" : 44,
+    "preview_url" : "https://p.scdn.co/mp3-preview/c74caa37a89afcabd96758cf3125aa612bf7ee5e",
+    "track_number" : 3,
+    "type" : "track",
+    "uri" : "spotify:track:5TzCDKy1ZmFZdW8100A8p9"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/6A7uB5OoxomiuSO4TvOXDB"
+      },
+      "href" : "https://api.spotify.com/v1/albums/6A7uB5OoxomiuSO4TvOXDB",
+      "id" : "6A7uB5OoxomiuSO4TvOXDB",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/12eca9c65aa64bbfcda9976cadd0d040d62be717",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/b72500a9d2a80b358fa49f0dfc027b27232eaad9",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/82e0e15d0292bcbc99dda9664bbc0c8553935041",
+        "width" : 64
+      } ],
+      "name" : "Inner Fire",
+      "type" : "album",
+      "uri" : "spotify:album:6A7uB5OoxomiuSO4TvOXDB"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/0MiCOT2cVYso39XSskiUUo"
+      },
+      "href" : "https://api.spotify.com/v1/artists/0MiCOT2cVYso39XSskiUUo",
+      "id" : "0MiCOT2cVYso39XSskiUUo",
+      "name" : "The Souljazz Orchestra",
+      "type" : "artist",
+      "uri" : "spotify:artist:0MiCOT2cVYso39XSskiUUo"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 252080,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "DEG931400520"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/5jiJYFm6YBqRJ0sLbwmezm"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/5jiJYFm6YBqRJ0sLbwmezm",
+    "id" : "5jiJYFm6YBqRJ0sLbwmezm",
+    "is_playable" : true,
+    "name" : "Kingdom Come",
+    "popularity" : 43,
+    "preview_url" : "https://p.scdn.co/mp3-preview/9b5d079f9bbd75a0611ec425047184f2910af64d",
+    "track_number" : 2,
+    "type" : "track",
+    "uri" : "spotify:track:5jiJYFm6YBqRJ0sLbwmezm"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/6WaemdTK1WfsV5geDQWMdM"
+      },
+      "href" : "https://api.spotify.com/v1/albums/6WaemdTK1WfsV5geDQWMdM",
+      "id" : "6WaemdTK1WfsV5geDQWMdM",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/9e93c7e4408e84553ec096f0d8fc0986ac2c19f1",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/3068938eb921a7cc2a78e86b33a4c79cc203fcab",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/5bafb12311cc8e56cade9ffd08935cab55a94ebb",
+        "width" : 64
+      } ],
+      "name" : "Empire & Love",
+      "type" : "album",
+      "uri" : "spotify:album:6WaemdTK1WfsV5geDQWMdM"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/6563Q8dHbDSq4DICGhel0d"
+      },
+      "href" : "https://api.spotify.com/v1/artists/6563Q8dHbDSq4DICGhel0d",
+      "id" : "6563Q8dHbDSq4DICGhel0d",
+      "name" : "The Imagined Village",
+      "type" : "artist",
+      "uri" : "spotify:artist:6563Q8dHbDSq4DICGhel0d"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 235360,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "GB3XQ0900030"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/0LbU6oYPxVFroVSy4K45lm"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/0LbU6oYPxVFroVSy4K45lm",
+    "id" : "0LbU6oYPxVFroVSy4K45lm",
+    "is_playable" : true,
+    "name" : "Space Girl",
+    "popularity" : 34,
+    "preview_url" : "https://p.scdn.co/mp3-preview/6778e5d2b04610b79d534e4dba889d951c56a351",
+    "track_number" : 3,
+    "type" : "track",
+    "uri" : "spotify:track:0LbU6oYPxVFroVSy4K45lm"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/2M9F2yYsUvqiBPwUGeNvn1"
+      },
+      "href" : "https://api.spotify.com/v1/albums/2M9F2yYsUvqiBPwUGeNvn1",
+      "id" : "2M9F2yYsUvqiBPwUGeNvn1",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/5749364125a3dd9c017f37144f65f1461dc86634",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/f5ad0c3412fcc414cc1aef6fd3ebef71fc5192ba",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/abe3fd7f5c6d423d671ea21472e857c41e036557",
+        "width" : 64
+      } ],
+      "name" : "Heavy Weather",
+      "type" : "album",
+      "uri" : "spotify:album:2M9F2yYsUvqiBPwUGeNvn1"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/162DCkd8aDKwvjBb74Gu8b"
+      },
+      "href" : "https://api.spotify.com/v1/artists/162DCkd8aDKwvjBb74Gu8b",
+      "id" : "162DCkd8aDKwvjBb74Gu8b",
+      "name" : "Weather Report",
+      "type" : "artist",
+      "uri" : "spotify:artist:162DCkd8aDKwvjBb74Gu8b"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 356760,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "USSM17700260"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/19vVghIuHm3IAfN4xpRF3q"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/19vVghIuHm3IAfN4xpRF3q",
+    "id" : "19vVghIuHm3IAfN4xpRF3q",
+    "is_playable" : true,
+    "name" : "Birdland",
+    "popularity" : 37,
+    "preview_url" : "https://p.scdn.co/mp3-preview/2439d208e83e9216d34f018c48a583d308c28b9e",
+    "track_number" : 1,
+    "type" : "track",
+    "uri" : "spotify:track:19vVghIuHm3IAfN4xpRF3q"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/6XHQCPGwvSaqv9MZ2tauqr"
+      },
+      "href" : "https://api.spotify.com/v1/albums/6XHQCPGwvSaqv9MZ2tauqr",
+      "id" : "6XHQCPGwvSaqv9MZ2tauqr",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/2c3aabf5f5acf2f0a3998a9fc11454f25f9f2085",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/36f19683927163c66e1001c091bdc44dcfaa9469",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/a312c1d449b6761f15caad0a43913463983c69f9",
+        "width" : 64
+      } ],
+      "name" : "The Inner Mounting Flame",
+      "type" : "album",
+      "uri" : "spotify:album:6XHQCPGwvSaqv9MZ2tauqr"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/3Ao7NH7lRyQAeKQg2mlTcO"
+      },
+      "href" : "https://api.spotify.com/v1/artists/3Ao7NH7lRyQAeKQg2mlTcO",
+      "id" : "3Ao7NH7lRyQAeKQg2mlTcO",
+      "name" : "Mahavishnu Orchestra",
+      "type" : "artist",
+      "uri" : "spotify:artist:3Ao7NH7lRyQAeKQg2mlTcO"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4v0R1feRiuCDch7aAheVhY"
+      },
+      "href" : "https://api.spotify.com/v1/artists/4v0R1feRiuCDch7aAheVhY",
+      "id" : "4v0R1feRiuCDch7aAheVhY",
+      "name" : "John McLaughlin",
+      "type" : "artist",
+      "uri" : "spotify:artist:4v0R1feRiuCDch7aAheVhY"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 307400,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "USSM11105336"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/6A8IR5kVgXncIBC9W0YHjL"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/6A8IR5kVgXncIBC9W0YHjL",
+    "id" : "6A8IR5kVgXncIBC9W0YHjL",
+    "is_playable" : true,
+    "name" : "You Know, You Know - Remastered",
+    "popularity" : 34,
+    "preview_url" : "https://p.scdn.co/mp3-preview/2d2e690195a6790fc846352125da07c1c9fca48c",
+    "track_number" : 7,
+    "type" : "track",
+    "uri" : "spotify:track:6A8IR5kVgXncIBC9W0YHjL"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/27bZK5n13Hoz2n3OscFxJf"
+      },
+      "href" : "https://api.spotify.com/v1/albums/27bZK5n13Hoz2n3OscFxJf",
+      "id" : "27bZK5n13Hoz2n3OscFxJf",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/3fcc2182471db10f6f4d98cada48cbc902857318",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/336af70e5fa67d7ae3bf8f45d270bc1ba7c02604",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/032a1a58424719f8f43eb4b7b78c819fb88fa56d",
+        "width" : 64
+      } ],
+      "name" : "Taurus",
+      "type" : "album",
+      "uri" : "spotify:album:27bZK5n13Hoz2n3OscFxJf"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4khzV3qBWcUKdc50QOv8Tc"
+      },
+      "href" : "https://api.spotify.com/v1/artists/4khzV3qBWcUKdc50QOv8Tc",
+      "id" : "4khzV3qBWcUKdc50QOv8Tc",
+      "name" : "Ocote Soul Sounds",
+      "type" : "artist",
+      "uri" : "spotify:artist:4khzV3qBWcUKdc50QOv8Tc"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 211680,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "TCACM1651152"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/0TIphz06xKu8ec3IxyxRwL"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/0TIphz06xKu8ec3IxyxRwL",
+    "id" : "0TIphz06xKu8ec3IxyxRwL",
+    "is_playable" : true,
+    "name" : "Primavera",
+    "popularity" : 36,
+    "preview_url" : "https://p.scdn.co/mp3-preview/2fea3a8441841da392107ce36b584812ec494a68",
+    "track_number" : 1,
+    "type" : "track",
+    "uri" : "spotify:track:0TIphz06xKu8ec3IxyxRwL"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/5k9ZaOefujc05zsKmLBTe2"
+      },
+      "href" : "https://api.spotify.com/v1/albums/5k9ZaOefujc05zsKmLBTe2",
+      "id" : "5k9ZaOefujc05zsKmLBTe2",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/c9c2b4db0e72aa4f9ee87b7c083592d5306ef913",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/6fe2bd178fffc66626cd825f1d9d94c73dacad9c",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/e28fe52ef0358d165db1ca785f6d9e76c3971c11",
+        "width" : 64
+      } ],
+      "name" : "Hot Damn!",
+      "type" : "album",
+      "uri" : "spotify:album:5k9ZaOefujc05zsKmLBTe2"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/5teuZRCtxzfuYW98XOwtxu"
+      },
+      "href" : "https://api.spotify.com/v1/artists/5teuZRCtxzfuYW98XOwtxu",
+      "id" : "5teuZRCtxzfuYW98XOwtxu",
+      "name" : "The Haggis Horns",
+      "type" : "artist",
+      "uri" : "spotify:artist:5teuZRCtxzfuYW98XOwtxu"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 509053,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "GBMCZ0600085"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/6EVWibaVfohgErUQxUIGjM"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/6EVWibaVfohgErUQxUIGjM",
+    "id" : "6EVWibaVfohgErUQxUIGjM",
+    "is_playable" : true,
+    "name" : "The Traveller Part Two",
+    "popularity" : 45,
+    "preview_url" : "https://p.scdn.co/mp3-preview/2e6d7b07e64a772d84a5d43c77d5eb09bacacc01",
+    "track_number" : 5,
+    "type" : "track",
+    "uri" : "spotify:track:6EVWibaVfohgErUQxUIGjM"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/6wKstFXknq7quU5pgIwZOr"
+      },
+      "href" : "https://api.spotify.com/v1/albums/6wKstFXknq7quU5pgIwZOr",
+      "id" : "6wKstFXknq7quU5pgIwZOr",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/04a4b181980f26b6f362b4793451f04e32d1277b",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ca43969ad804c0bb3476dd04391db4616a068fa1",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/c3d4d75a4b32e2595968d84f4b0011e27391291a",
+        "width" : 64
+      } ],
+      "name" : "The Shakedown",
+      "type" : "album",
+      "uri" : "spotify:album:6wKstFXknq7quU5pgIwZOr"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/20ztaBo1Ap1UXnF0HpOX44"
+      },
+      "href" : "https://api.spotify.com/v1/artists/20ztaBo1Ap1UXnF0HpOX44",
+      "id" : "20ztaBo1Ap1UXnF0HpOX44",
+      "name" : "Speedometer",
+      "type" : "artist",
+      "uri" : "spotify:artist:20ztaBo1Ap1UXnF0HpOX44"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/6e6FiOOuM4VotvYcIdAtXn"
+      },
+      "href" : "https://api.spotify.com/v1/artists/6e6FiOOuM4VotvYcIdAtXn",
+      "id" : "6e6FiOOuM4VotvYcIdAtXn",
+      "name" : "Snowboy",
+      "type" : "artist",
+      "uri" : "spotify:artist:6e6FiOOuM4VotvYcIdAtXn"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 222440,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "GBJSH1028206"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/7IN0b3ucw1e1u9eOrTdXjG"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/7IN0b3ucw1e1u9eOrTdXjG",
+    "id" : "7IN0b3ucw1e1u9eOrTdXjG",
+    "is_playable" : true,
+    "name" : "Orisha featuring Snowboy",
+    "popularity" : 32,
+    "preview_url" : "https://p.scdn.co/mp3-preview/d871dc975b7c08ddbc5613ac0128fbf0665c056f",
+    "track_number" : 6,
+    "type" : "track",
+    "uri" : "spotify:track:7IN0b3ucw1e1u9eOrTdXjG"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/5fsGOCklvMhFLO2yHizeqb"
+      },
+      "href" : "https://api.spotify.com/v1/albums/5fsGOCklvMhFLO2yHizeqb",
+      "id" : "5fsGOCklvMhFLO2yHizeqb",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/8fc44edb28ae9241261d66180a61e11744f9ebf6",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/dbbb4048a939cbc462264fbf1aad5399a5d6e2ac",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/534d2b9b7c30ed11a03d7c46d2d35b8140c37565",
+        "width" : 64
+      } ],
+      "name" : "High Noon",
+      "type" : "album",
+      "uri" : "spotify:album:5fsGOCklvMhFLO2yHizeqb"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/19Xtz31LtgKmfyYw4qAGZh"
+      },
+      "href" : "https://api.spotify.com/v1/artists/19Xtz31LtgKmfyYw4qAGZh",
+      "id" : "19Xtz31LtgKmfyYw4qAGZh",
+      "name" : "The Funk Ark",
+      "type" : "artist",
+      "uri" : "spotify:artist:19Xtz31LtgKmfyYw4qAGZh"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 204986,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "US8JA1624001"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/2CRRv1ECfQZEsFZlbPlb1G"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/2CRRv1ECfQZEsFZlbPlb1G",
+    "id" : "2CRRv1ECfQZEsFZlbPlb1G",
+    "is_playable" : true,
+    "name" : "Chaga",
+    "popularity" : 23,
+    "preview_url" : "https://p.scdn.co/mp3-preview/1664da247205929bfd0670db207ce82ce43dc108",
+    "track_number" : 1,
+    "type" : "track",
+    "uri" : "spotify:track:2CRRv1ECfQZEsFZlbPlb1G"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/1IYVB8NfiRqhdZlTxjspNh"
+      },
+      "href" : "https://api.spotify.com/v1/albums/1IYVB8NfiRqhdZlTxjspNh",
+      "id" : "1IYVB8NfiRqhdZlTxjspNh",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/1616a00abdea39b7098b91d1ab5ae5edcd47e52b",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/82645f23725ec1a1c4ed9e4ce87e1290e6bae085",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/f77c999178b21f93de3232519586748348a129f0",
+        "width" : 64
+      } ],
+      "name" : "Rainbow",
+      "type" : "album",
+      "uri" : "spotify:album:1IYVB8NfiRqhdZlTxjspNh"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/6LqNN22kT3074XbTVUrhzX"
+      },
+      "href" : "https://api.spotify.com/v1/artists/6LqNN22kT3074XbTVUrhzX",
+      "id" : "6LqNN22kT3074XbTVUrhzX",
+      "name" : "Kesha",
+      "type" : "artist",
+      "uri" : "spotify:artist:6LqNN22kT3074XbTVUrhzX"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 231360,
+    "explicit" : true,
+    "external_ids" : {
+      "isrc" : "USRC11701502"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/318EGw5ZZB8U5MdMWQwxZQ"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/318EGw5ZZB8U5MdMWQwxZQ",
+    "id" : "318EGw5ZZB8U5MdMWQwxZQ",
+    "is_playable" : true,
+    "name" : "Bastards",
+    "popularity" : 68,
+    "preview_url" : "https://p.scdn.co/mp3-preview/22eb79ee9a9503a8e2bef174fdf109822f882f76",
+    "track_number" : 1,
+    "type" : "track",
+    "uri" : "spotify:track:318EGw5ZZB8U5MdMWQwxZQ"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/2tAFOhqz3DxxVI2s5YNsrD"
+      },
+      "href" : "https://api.spotify.com/v1/albums/2tAFOhqz3DxxVI2s5YNsrD",
+      "id" : "2tAFOhqz3DxxVI2s5YNsrD",
+      "images" : [ {
+        "height" : 634,
+        "url" : "https://i.scdn.co/image/0421a9ed621fa28114237004030c410d74f0cc2e",
+        "width" : 640
+      }, {
+        "height" : 297,
+        "url" : "https://i.scdn.co/image/927a7943dc7e5c877ec5cf6157ac63ad4ad923a7",
+        "width" : 300
+      }, {
+        "height" : 63,
+        "url" : "https://i.scdn.co/image/17a0badb47fc252e576edebdada56223fcfc0459",
+        "width" : 64
+      } ],
+      "name" : "Life Aquatic Studio Sessions",
+      "type" : "album",
+      "uri" : "spotify:album:2tAFOhqz3DxxVI2s5YNsrD"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/0i1s9WcIu0PrUvHzALgofo"
+      },
+      "href" : "https://api.spotify.com/v1/artists/0i1s9WcIu0PrUvHzALgofo",
+      "id" : "0i1s9WcIu0PrUvHzALgofo",
+      "name" : "Seu Jorge",
+      "type" : "artist",
+      "uri" : "spotify:artist:0i1s9WcIu0PrUvHzALgofo"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 165466,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "USHR10522028"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/5mZYRyOPWVlTtPGWHJCbAL"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/5mZYRyOPWVlTtPGWHJCbAL",
+    "id" : "5mZYRyOPWVlTtPGWHJCbAL",
+    "is_playable" : true,
+    "name" : "Rebel Rebel",
+    "popularity" : 44,
+    "preview_url" : "https://p.scdn.co/mp3-preview/2d8ebe71432c73723dbd8440edb43dd378592787",
+    "track_number" : 1,
+    "type" : "track",
+    "uri" : "spotify:track:5mZYRyOPWVlTtPGWHJCbAL"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/1fSKDjqkvMXg6cRSCBffL4"
+      },
+      "href" : "https://api.spotify.com/v1/albums/1fSKDjqkvMXg6cRSCBffL4",
+      "id" : "1fSKDjqkvMXg6cRSCBffL4",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/9ff778c49fe3861e716624f62b26e922bc3f3a29",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/f15c817efd75b47f38ce28a0d3b885415b882f3c",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/cf80e233f3a27af799b5c42da4284b73b42c0213",
+        "width" : 64
+      } ],
+      "name" : "Life Playing Tricks",
+      "type" : "album",
+      "uri" : "spotify:album:1fSKDjqkvMXg6cRSCBffL4"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/5dCpFeKxLbycrnsjWZjha8"
+      },
+      "href" : "https://api.spotify.com/v1/artists/5dCpFeKxLbycrnsjWZjha8",
+      "id" : "5dCpFeKxLbycrnsjWZjha8",
+      "name" : "Proleter",
+      "type" : "artist",
+      "uri" : "spotify:artist:5dCpFeKxLbycrnsjWZjha8"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 258413,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "FRPHC1700031"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/61LRif9gkewaMvZQOdC2vN"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/61LRif9gkewaMvZQOdC2vN",
+    "id" : "61LRif9gkewaMvZQOdC2vN",
+    "is_playable" : true,
+    "name" : "Badass Girlz",
+    "popularity" : 47,
+    "preview_url" : "https://p.scdn.co/mp3-preview/88fd9aee7499b8f2d43893f4ef4dbceaf754c533",
+    "track_number" : 3,
+    "type" : "track",
+    "uri" : "spotify:track:61LRif9gkewaMvZQOdC2vN"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/6gWX1I0duVU5lxBUqvmsYz"
+      },
+      "href" : "https://api.spotify.com/v1/albums/6gWX1I0duVU5lxBUqvmsYz",
+      "id" : "6gWX1I0duVU5lxBUqvmsYz",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/9e953abfad523e806a1116200174668b4b4b81cd",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/83d6e2074cb467167e2ffb9a89f82d9be00c2417",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/c5dbcb0fb2e7df3a6fa4b6bb801d950e2b67715b",
+        "width" : 64
+      } ],
+      "name" : "Rookie EP",
+      "type" : "album",
+      "uri" : "spotify:album:6gWX1I0duVU5lxBUqvmsYz"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/5dCpFeKxLbycrnsjWZjha8"
+      },
+      "href" : "https://api.spotify.com/v1/artists/5dCpFeKxLbycrnsjWZjha8",
+      "id" : "5dCpFeKxLbycrnsjWZjha8",
+      "name" : "Proleter",
+      "type" : "artist",
+      "uri" : "spotify:artist:5dCpFeKxLbycrnsjWZjha8"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 220176,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "TCACB1452225"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/2BLT0zu1BhGV993y3f333S"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/2BLT0zu1BhGV993y3f333S",
+    "id" : "2BLT0zu1BhGV993y3f333S",
+    "is_playable" : true,
+    "name" : "By the River",
+    "popularity" : 36,
+    "preview_url" : "https://p.scdn.co/mp3-preview/2d021c24b6bae0d5d8e28a64a1474f2d28354f52",
+    "track_number" : 1,
+    "type" : "track",
+    "uri" : "spotify:track:2BLT0zu1BhGV993y3f333S"
+  }, {
+    "album" : {
+      "album_type" : "SINGLE",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/5zLzC79GT95cATavGSVpAx"
+      },
+      "href" : "https://api.spotify.com/v1/albums/5zLzC79GT95cATavGSVpAx",
+      "id" : "5zLzC79GT95cATavGSVpAx",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/38228474318a6c5356e077ab842dcaafe19090db",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/e21f81359ed386c2d04d1b746b38bb839a188d1d",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/13a6942b7d08ca853eb2fa6dccb07745677d3063",
+        "width" : 64
+      } ],
+      "name" : "Curitiba Strut / Hanging On",
+      "type" : "album",
+      "uri" : "spotify:album:5zLzC79GT95cATavGSVpAx"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/5ABBZoXY5r0UL1txACjinb"
+      },
+      "href" : "https://api.spotify.com/v1/artists/5ABBZoXY5r0UL1txACjinb",
+      "id" : "5ABBZoXY5r0UL1txACjinb",
+      "name" : "Ikebe Shakedown",
+      "type" : "artist",
+      "uri" : "spotify:artist:5ABBZoXY5r0UL1txACjinb"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 251000,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "US6680914149"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/6mFgegeOT7qmXuUvOdNN7i"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/6mFgegeOT7qmXuUvOdNN7i",
+    "id" : "6mFgegeOT7qmXuUvOdNN7i",
+    "is_playable" : true,
+    "name" : "Curitiba Strut",
+    "popularity" : 32,
+    "preview_url" : "https://p.scdn.co/mp3-preview/fbb2e4c32d182bf2efbade83b7d68e605a71a786",
+    "track_number" : 1,
+    "type" : "track",
+    "uri" : "spotify:track:6mFgegeOT7qmXuUvOdNN7i"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/3U7gpJz71bKI32szGA6AoR"
+      },
+      "href" : "https://api.spotify.com/v1/albums/3U7gpJz71bKI32szGA6AoR",
+      "id" : "3U7gpJz71bKI32szGA6AoR",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/52abdb64b3abd1a9cc74decf13a7b622d9fe9365",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/f8bcbdf34d92e3a5d10af5d57206a4251ff4ed7a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/8490c6808b3f2ad909fdd4459a453945631148f6",
+        "width" : 64
+      } ],
+      "name" : "Soul Explosion",
+      "type" : "album",
+      "uri" : "spotify:album:3U7gpJz71bKI32szGA6AoR"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/42ccKlw9sHnNr29o6gqnsv"
+      },
+      "href" : "https://api.spotify.com/v1/artists/42ccKlw9sHnNr29o6gqnsv",
+      "id" : "42ccKlw9sHnNr29o6gqnsv",
+      "name" : "The Daktaris",
+      "type" : "artist",
+      "uri" : "spotify:artist:42ccKlw9sHnNr29o6gqnsv"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 225512,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "USA370653893"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/1IzuTL3npBJMWcD2EZxVFr"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/1IzuTL3npBJMWcD2EZxVFr",
+    "id" : "1IzuTL3npBJMWcD2EZxVFr",
+    "is_playable" : true,
+    "name" : "Super Afro-Beat",
+    "popularity" : 21,
+    "preview_url" : "https://p.scdn.co/mp3-preview/9d1b5ba697a16c9100bf0189e4c9808c12d06c40",
+    "track_number" : 5,
+    "type" : "track",
+    "uri" : "spotify:track:1IzuTL3npBJMWcD2EZxVFr"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/3vOgpHEqGwHEs6LMKaXIzu"
+      },
+      "href" : "https://api.spotify.com/v1/albums/3vOgpHEqGwHEs6LMKaXIzu",
+      "id" : "3vOgpHEqGwHEs6LMKaXIzu",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/0f3d1742f756550da9db1353f1f4bbe6f9c4630b",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/aa27b68f64073bbf64fe5445ab382a38516cbafc",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/0c2d276dc06f1e8798901a6059881788d05b48a4",
+        "width" : 64
+      } ],
+      "name" : "The Essential John McLaughlin",
+      "type" : "album",
+      "uri" : "spotify:album:3vOgpHEqGwHEs6LMKaXIzu"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/3Ao7NH7lRyQAeKQg2mlTcO"
+      },
+      "href" : "https://api.spotify.com/v1/artists/3Ao7NH7lRyQAeKQg2mlTcO",
+      "id" : "3Ao7NH7lRyQAeKQg2mlTcO",
+      "name" : "Mahavishnu Orchestra",
+      "type" : "artist",
+      "uri" : "spotify:artist:3Ao7NH7lRyQAeKQg2mlTcO"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4v0R1feRiuCDch7aAheVhY"
+      },
+      "href" : "https://api.spotify.com/v1/artists/4v0R1feRiuCDch7aAheVhY",
+      "id" : "4v0R1feRiuCDch7aAheVhY",
+      "name" : "John McLaughlin",
+      "type" : "artist",
+      "uri" : "spotify:artist:4v0R1feRiuCDch7aAheVhY"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 344400,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "USSM17200737"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/2VMu9l8AHdiTf1izAxnx5n"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/2VMu9l8AHdiTf1izAxnx5n",
+    "id" : "2VMu9l8AHdiTf1izAxnx5n",
+    "is_playable" : true,
+    "name" : "Birds of Fire",
+    "popularity" : 31,
+    "preview_url" : "https://p.scdn.co/mp3-preview/34ab097fe5e7f93e6a66e99fb38beb3ac1d90a23",
+    "track_number" : 10,
+    "type" : "track",
+    "uri" : "spotify:track:2VMu9l8AHdiTf1izAxnx5n"
+  } ],
+  "total" : 2809,
+  "limit" : 20,
+  "offset" : 0,
+  "href" : "https://api.spotify.com/v1/me/top/tracks",
+  "previous" : null,
+  "next" : "https://api.spotify.com/v1/me/top/tracks?limit=20&offset=20"
+}

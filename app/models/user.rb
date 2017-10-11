@@ -1,8 +1,6 @@
 require 'yaml'
 class User < ApplicationRecord
 
-
-
   def self.find_or_create_from_request(request)
     user = User.find_or_create_by(uid: request["omniauth.auth"]["uid"])
     info = request["omniauth.auth"]["info"]
@@ -18,7 +16,7 @@ class User < ApplicationRecord
   end
 
   def self.validate_spotify_auth_token_for(user)
-    if Time.now > user.token_expiration
+    if Time.now > user.token_expiration.to_i
       encoded_id_secret = Base64.strict_encode64("#{ENV['spotify_key']}:#{ENV['spotify_secret']}")
       request = { :body => { "grant_type" => "refresh_token", "refresh_token" => user.refresh_token } ,
                        :headers => { "Authorization" => "Basic #{encoded_id_secret}" }
