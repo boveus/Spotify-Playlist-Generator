@@ -3,26 +3,6 @@
 <p> E-mail <%= current_user.email %> </p>
 <%= image_tag current_user.image_path %>
 
-
-Test slider
-<form>
-<input
-    type="range"
-    min="10"                    // default 0
-    max="100"                  // default 100
-    step="1"                   // default 1
->
-<br />
-<input
-    type="range"
-    min="10"                    // default 0
-    max="100"                  // default 100
-    step="1"                   // default 1
->
-<input type='submit' value='submit' />
-</form>
-
-
 <h3>Top 20 artists</h3>
 <% @top_artists.each_with_index do |artist, index| %>
 <tr>
