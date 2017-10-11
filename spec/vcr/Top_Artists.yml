@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.spotify.com/v1/me/top/artists
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer BQALJA-9Q1etdVFMpvN0j4HPjdW1BJIKHO2PxEojHnHZB5Zk2VUASAjirpOsoKqlNm3bHOS0IQKxnVYcqvSzkz5nLFL3-5oeq_bg5H4UZZpLJaSks6IdgGAd5BmrMvKDDDScVUzojaKCOxrKzrWuOYg8iFI_O7Fk8DIe6jAlfTkP9jfQ74O4bYcd7nRpqGC2fUaeSnOWM2lUFkSDbBmCTibV90EamrawNSt-ZkY
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 10 Oct 2017 23:17:35 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '81'
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=600
+      Www-Authenticate:
+      - Bearer realm="spotify", error="invalid_token", error_description="The access
+        token expired"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS, PUT, DELETE
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Max-Age:
+      - '604800'
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Origin, Content-Type
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "error": {
+            "status": 401,
+            "message": "The access token expired"
+          }
+        }
+    http_version: 
+  recorded_at: Tue, 10 Oct 2017 23:17:35 GMT
+recorded_with: VCR 3.0.3

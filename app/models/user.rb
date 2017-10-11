@@ -27,6 +27,7 @@ class User < ApplicationRecord
       User.update_yaml(response["access_token"], user.refresh_token)
       User.update(user.id, token: response["access_token"], token_expiration: (Time.now + response["expires_in"]))
     end
+    # instance method or possible seperate class
   end
 
   def self.update_yaml(token, refresh_token)

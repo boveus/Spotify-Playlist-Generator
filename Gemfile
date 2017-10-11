@@ -35,12 +35,10 @@ gem 'omniauth-spotify'
 gem 'capybara'
 gem 'rspec'
 gem 'rspec-rails', '~> 3.6'
-gem 'database_cleaner'
 gem 'figaro'
 gem 'postman-ruby'
 gem 'httparty'
-gem 'vcr'
-gem 'fakeweb'
+gem 'webmock'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
