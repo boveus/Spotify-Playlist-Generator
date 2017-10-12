@@ -33,7 +33,7 @@
      position: absolute;
      z-index: 1;
      top: 20px;
-     right: 80%%;
+     right: 80%;
  }
 
  .tooltip:hover .tooltiptext {
