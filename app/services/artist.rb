@@ -10,4 +10,9 @@ class Artist
     @genres = genres
     @artist_id = artist_id
   end
+  def image
+    if image_path != "blank"
+      image_path["url"]
+    end
+  end
 end

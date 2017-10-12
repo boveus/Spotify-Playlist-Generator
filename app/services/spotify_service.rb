@@ -1,12 +1,19 @@
 class SpotifyService
-  def initialize(token, recommendations_query = nil)
+  def initialize(token, query = nil)
     @token = token
-    @recommendations_query = recommendations_query
+    @query = query
   end
 
   def request(api_path, token)
     HTTParty.get("https://api.spotify.com/#{api_path}",
     headers: { "Authorization" => "Bearer #{token}"}).parsed_response
+  end
+
+  def request_with_query(api_path, token, query)
+    headers =  { "Authorization" => "Bearer #{token}"}
+    HTTParty.get("https://api.spotify.com/#{api_path}",
+    :query => query,
+    :headers => headers).parsed_response
   end
 
   def request_user_top_tracks
@@ -18,9 +25,10 @@ class SpotifyService
   end
 
   def request_recommendations
-    headers =  { "Authorization" => "Bearer #{@token}"}
-    HTTParty.get("https://api.spotify.com/recommendations",
-    :query => @recommendations_query,
-    :headers => headers)
+    request_with_query("recommendations", @token, @query)
+  end
+
+  def request_search
+    request_with_query("search", @token, @query)
   end
 end
