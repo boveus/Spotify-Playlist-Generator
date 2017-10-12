@@ -39,6 +39,7 @@ gem 'figaro'
 gem 'postman-ruby'
 gem 'httparty'
 gem 'webmock'
+gem 'launchy'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

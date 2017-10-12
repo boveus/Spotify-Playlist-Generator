@@ -7,7 +7,7 @@
     <% if @type == 'Track' %>
      <%= button_to "Add Track To List", params: {'seed' => result.track_id}, action: "add", controller: "playlist" %>
     <% else %>
-     <%= button_to "Add Track To List", params: {'seed' => result.artist_id}, action: "add", controller: "playlist" %>
+     <%= button_to "Add Artist To List", params: {'seed' => result.artist_id}, action: "add", controller: "playlist" %>
     <% end %>
    </td>
    <br />

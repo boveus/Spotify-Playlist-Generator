@@ -32,6 +32,9 @@ RSpec.configure do |config|
 
     stub_request(:get, "https://api.spotify.com/v1/search?q=Michael%20Jackson&type=Artist")
     .to_return(body: fixture('search_results.json'), headers: {content_type: 'application/json; charset=utf-8'})
+
+    stub_request(:get, "https://api.spotify.com/v1/search")
+    .to_return(body: fixture('search_results.json'), headers: {content_type: 'application/json; charset=utf-8'})
   end
   config.expect_with :rspec do |expectations|
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
