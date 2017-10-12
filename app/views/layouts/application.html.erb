@@ -16,7 +16,8 @@
     <div style="overflow:auto">
       <div class="menu">
         <div class="menuitem"><%= link_to "Home", dashboard_index_path, class: "link_text" %></div>
-        <div class="menuitem"><%= link_to "Create Playlists", create_playlist_path, class: "link_text" %></div>
+        <div class="menuitem"><%= link_to "Create Playlist", create_playlist_path, class: "link_text" %></div>
+        <div class="menuitem"><%= link_to "Search Spotify", new_search_path, class: "link_text" %></div>
         <div class="menuitem"><%= link_to "Top 20 Artists", top_artists_path, class: "link_text" %></div>
         <div class="menuitem"><%= link_to "Top 20 Tracks", top_tracks_path, class: "link_text" %></div>
         <% if current_user %>
