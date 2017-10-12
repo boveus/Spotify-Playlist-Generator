@@ -27,6 +27,9 @@
       </div>
 
       <div class="main">
+        <% flash.each do |type, message| %>
+          <%= content_tag :div, sanitize(message),  class: type %>
+        <% end %>
             <%= yield %>
       </div>
 

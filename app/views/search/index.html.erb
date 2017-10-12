@@ -1,9 +1,15 @@
 <h3>Search Results</h3>
-<% @search_results.each_with_index do |artist, index| %>
+<% @search_results.each_with_index do |result, index| %>
 <tr>
   <% num = index + 1 %>
-    <%= image_tag artist.image, size: '50x50' %>
-   <td class=top_artist id=top_artist_<%= num %>><%= num %> : <%= artist.name %></td>
+    <%= image_tag result.image, size: '50x50' %>
+   <td class=top_artist id=top_artist_<%= num %>><%= num %> : <%= result.name %>
+    <% if @type == 'Track' %>
+     <%= button_to "Add Track To List", params: {'seed' => result.track_id}, action: "add", controller: "playlist" %>
+    <% else %>
+     <%= button_to "Add Track To List", params: {'seed' => result.artist_id}, action: "add", controller: "playlist" %>
+    <% end %>
+   </td>
    <br />
 </tr>
 <% end %>
