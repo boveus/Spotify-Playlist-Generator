@@ -4,17 +4,12 @@
 
 <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
 
-<p> Playlist Name</p>
-<input
+<p> Playlist Name <input
     id="playlist_name_field"
     type="text"
     name="playlist_name"
->
-<br />
-<p> Number of songs </p>
-<input id="number_of_songs_field" type="number" name="limit" min="1" max="100" value="20">
-<br />
-<br />
+> </p>
+<p> Number of songs: <input id="number_of_songs_field" type="number" name="limit" min="1" max="100" value="20"> </p>
 
 <div class="tooltip"> Acousticness
     <span class="tooltiptext">A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.</span>
@@ -112,6 +107,7 @@
     step="1"
     name="popularity"
 >
+<br />
 <br />
 <input type='submit' value='Generate Playlist' class="btn-btn-danger" />
 </form>
