@@ -17,12 +17,13 @@
       <div class="menu">
         <div class="menuitem"><%= link_to "Home", dashboard_index_path, class: "link_text" %></div>
         <div class="menuitem"><%= link_to "Create Playlist", create_playlist_path, class: "link_text" %></div>
-        <div class="menuitem"><%= link_to "Search Spotify", new_search_path, class: "link_text" %></div>
-        <div class="menuitem"><%= link_to "Top 20 Artists", top_artists_path, class: "link_text" %></div>
-        <div class="menuitem"><%= link_to "Top 20 Tracks", top_tracks_path, class: "link_text" %></div>
         <% if current_user %>
         <div class="menuitem"><%= link_to "Logout", user_logout_path, class: "link_text" %></div>
         <% end %>
+        <div class="menuitem"><%= link_to "Search Spotify", new_search_path, class: "link_text" %></div>
+        <div class="menuitem"><%= link_to "Top 20 Artists", top_artists_path, class: "link_text" %></div>
+        <div class="menuitem"><%= link_to "Top 20 Tracks", top_tracks_path, class: "link_text" %></div>
+
       </div>
 
       <div class="main">
@@ -30,8 +31,8 @@
       </div>
 
       <div class="right">
-        <h2>About</h2>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        <h2>Instructions</h2>
+        <p>Select up to 5 tracks or artists, and then go to create playlist to generate a new playlist based on your selections</p>
       </div>
     </div>
     <div style="background-color:#1db954;text-align:center;padding:10px;margin-top:7px;"> footer </div>
