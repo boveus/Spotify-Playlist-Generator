@@ -4,7 +4,17 @@
 
 <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
 
-
+<p> Playlist Name</p>
+<input
+    id="playlist_name_field"
+    type="text"
+    name="playlist_name"
+>
+<br />
+<p> Number of songs </p>
+<input id="number_of_songs_field" type="number" name="limit" min="1" max="100" value="20">
+<br />
+<br />
 
 <div class="tooltip"> Acousticness
     <span class="tooltiptext">A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.</span>
@@ -31,7 +41,9 @@
     data-orientation="vertical"
 >
 <br />
-<p>Duration</p>
+<div class="tooltip"> Duration
+  <span class="tooltiptext"> The duration of the track in milliseconds. </span>
+</div>
 <input
     id="duration_ms_slider"
     type="range"
@@ -41,7 +53,9 @@
     name="duration"
 >
 <br />
-<p>Energy</p>
+<div class="tooltip"> Energy
+  <span class="tooltiptext"> Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy. </span>
+</div>
 <input
     id="energy_slider"
     type="range"
@@ -51,7 +65,9 @@
     name="energy"
 >
 <br />
-<p>Instrumentalness</p>
+<div class="tooltip"> Instrumentalness
+  <span class="tooltiptext"> Predicts whether a track contains no vocals. "Ooh" and "aah" sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly "vocal". The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0. </span>
+</div>
 <input
     id="instrumentalness_slider"
     type="range"
@@ -60,16 +76,10 @@
     step="1"
     name="instrumentalness"
 >
-<p>Key</p>
-<input
-    id="key_slider"
-    type="range"
-    min="1"
-    max="100"
-    step="1"
-    name="key"
->
-<p>Liveness</p>
+<br />
+<div class="tooltip"> Liveness
+  <span class="tooltiptext"> Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. A value above 0.8 provides strong likelihood that the track is live. </span>
+</div>
 <input
     id="liveness_slider"
     type="range"
@@ -78,7 +88,10 @@
     step="1"
     name="liveness"
 >
-<p>Loudness</p>
+<br />
+<div class="tooltip"> Loudness
+  <span class="tooltiptext"> The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typical range between -60 and 0 db. </span>
+</div>
 <input
     id="loudness_slider"
     type="range"
@@ -87,16 +100,10 @@
     step="1"
     name="loudness"
 >
-<p>Mode</p>
-<input
-    id="mode_slider"
-    type="range"
-    min="1"
-    max="100"
-    step="1"
-    name="mode"
->
-<p>Popularity</p>
+<br />
+<div class="tooltip"> Popularity
+  <span class="tooltiptext"> The popularity of the track. The value will be between 0 and 100, with 100 being the most popular. The popularity is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are. </span>
+</div>
 <input
     id="popularity_slider"
     type="range"
@@ -105,14 +112,6 @@
     step="1"
     name="popularity"
 >
-<p> Playlist Name</p>
-<input
-    id="playlist_name_field"
-    type="text"
-    name="playlist_name"
->
-<br />
-<input id="number_of_songs_field" type="number" name="limit" min="1" max="100" value="20">
 <br />
 <input type='submit' value='Generate Playlist' class="btn-btn-danger" />
 </form>
