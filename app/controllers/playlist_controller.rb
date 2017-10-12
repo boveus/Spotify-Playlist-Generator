@@ -1,4 +1,6 @@
 class PlaylistController < ApplicationController
+  before_action :authenticate_user!
+  
   def create
     token = current_user.token
     query = query_params.to_h.symbolize_keys

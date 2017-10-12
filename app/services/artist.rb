@@ -1,7 +1,6 @@
 class Artist
-  attr_reader :image
-
-  attr_reader :name,
+  attr_reader :image,
+              :name,
               :image_path,
               :genres,
               :artist_id

@@ -4,7 +4,11 @@
 
 <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
 
-<p>Acousticness</p>
+
+
+<div class="tooltip"> Acousticness
+    <span class="tooltiptext">A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.</span>
+</div>
 <input
     id="acousticness_slider"
     type="range"
@@ -14,7 +18,9 @@
     name="acousticness"
 >
 <br />
-<p>Danceability</p>
+<div class="tooltip"> Danceability
+  <span class="tooltiptext">Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.</span>
+</div>
 <input
     id="danceability_slider"
     type="range"
@@ -22,6 +28,7 @@
     max="100"
     step="1"
     name="danceability"
+    data-orientation="vertical"
 >
 <br />
 <p>Duration</p>

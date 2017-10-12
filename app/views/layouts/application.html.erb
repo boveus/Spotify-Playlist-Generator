@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>APIcurious</title>
+    <title> Spotify Playlist Generator </title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
   </head>
 
-  <body>
-    <%= yield %>
+  <body style="font-family:Verdana;color:black;">
+    <div style="background-color:#1db954;padding:15px;text-align:center;">
+      <h1> Spotify playlist generator </h1>
+    </div>
+
+    <div style="overflow:auto">
+      <div class="menu">
+        <div class="menuitem"><%= link_to "Home", dashboard_index_path, class: "link_text" %></div>
+        <div class="menuitem"><%= link_to "Create Playlists", create_playlist_path, class: "link_text" %></div>
+        <div class="menuitem"><%= link_to "Top 20 Artists", top_artists_path, class: "link_text" %></div>
+        <div class="menuitem"><%= link_to "Top 20 Tracks", top_tracks_path, class: "link_text" %></div>
+        <% if current_user %>
+        <div class="menuitem"><%= link_to "Logout", user_logout_path, class: "link_text" %></div>
+        <% end %>
+      </div>
+
+      <div class="main">
+            <%= yield %>
+      </div>
+
+      <div class="right">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+      </div>
+    </div>
+    <div style="background-color:#1db954;text-align:center;padding:10px;margin-top:7px;"> footer </div>
   </body>
 </html>

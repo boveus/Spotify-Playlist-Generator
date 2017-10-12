@@ -5,5 +5,9 @@ Rails.application.routes.draw do
   get '/dashboard/create_playlist/choose_seeds', as: :choose_seeds, to: 'search#index'
   post '/dashboard/create_playlist/choose_seeds', as: :new_search, to: 'search#index'
   get '/dashboard/create_playlist', as: :create_playlist, to: 'search#new'
+  get '/dashboard/create_playlist/choose_attributes', as: :choose_attributes, to: 'playlist#new'
+  get '/dashboard/top_artists', as: :top_artists, to: 'dashboard#top_artists'
+  get '/dashboard/top_tracks', as: :top_tracks, to: 'dashboard#top_tracks'
+  get '/user/logout', as: :user_logout, to: 'dashboard#logout'
   resources :dashboard, only: [:index]
 end

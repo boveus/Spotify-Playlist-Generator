@@ -1,24 +1,3 @@
-<h1>Dashboard#index</h1>
-<p> WELCOME TO SPOTIFYS, <%= current_user.name %> </p>
+<p> Welcome to the Spotify playlist generator, <%= current_user.name %> </p>
 <p> E-mail <%= current_user.email %> </p>
-<%= image_tag current_user.image_path %>
-
-<h3>Top 20 artists</h3>
-<% @top_artists.each_with_index do |artist, index| %>
-<tr>
-  <% num = index + 1 %>
-   <td class=top_artist id=top_artist_<%= num %>><%= num %> : <%= artist.name %></td>
-   <br />
-</tr>
-<% end %>
-
-<h3>Top 20 tracks</h3>
-<% @top_tracks.each_with_index do |track, index| %>
-<tr>
-  <% num = index + 1 %>
-   <td class=top_track id=top_track_<%= num %>><%= num %> : <%= "#{track.name} by #{track.artist}"%></td>
-   <br />
-</tr>
-<% end %>
-
-<%= link_to "Create Playlists", create_playlist_path %>
+<%= image_tag current_user.image_path, size: '50x50' %>

@@ -13,3 +13,69 @@
  *= require_tree .
  *= require_self
  */
+
+ .tooltip {
+     position: relative;
+     display: inline-block;
+     border-bottom: 1px dotted black;
+ }
+
+ .tooltip .tooltiptext {
+     visibility: hidden;
+     width: 300px;
+     background-color: #1db954;
+     color: black;
+     text-align: center;
+     border-radius: 6px;
+     padding: 5px 0;
+
+     /* Position the tooltip */
+     position: absolute;
+     z-index: 1;
+     top: 20px;
+     right: 80%%;
+ }
+
+ .tooltip:hover .tooltiptext {
+     visibility: visible;
+ }
+
+ * {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menuitem {
+  background-color:#1db954;
+  padding:8px;
+  margin-top:7px;
+}
+.link_text {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:#1db954;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
