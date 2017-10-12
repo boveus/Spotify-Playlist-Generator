@@ -2,6 +2,7 @@
 <% @search_results.each_with_index do |artist, index| %>
 <tr>
   <% num = index + 1 %>
+    <%= image_tag artist.image, size: '50x50' %>
    <td class=top_artist id=top_artist_<%= num %>><%= num %> : <%= artist.name %></td>
    <br />
 </tr>

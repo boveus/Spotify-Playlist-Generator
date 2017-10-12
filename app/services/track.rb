@@ -12,4 +12,12 @@ class Track
     @image_path = image_path
     @track_id = track_id
   end
+
+  def image
+    if @image_path != "blank"
+      return @image_path["url"]
+    else
+    'capybarawontseeitanyway.jpg'
+    end
+  end
 end

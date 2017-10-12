@@ -5,7 +5,7 @@ class SpotifyService
   end
 
   def request(api_path, token)
-    HTTParty.get("https://api.spotify.com/#{api_path}",
+    HTTParty.get("https://api.spotify.com/v1/#{api_path}",
     headers: { "Authorization" => "Bearer #{token}"}).parsed_response
   end
 

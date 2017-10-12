@@ -1,4 +1,6 @@
 class Artist
+  attr_reader :image
+
   attr_reader :name,
               :image_path,
               :genres,
@@ -10,9 +12,11 @@ class Artist
     @genres = genres
     @artist_id = artist_id
   end
-  def image
-    if image_path != "blank"
-      image_path["url"]
+    def image
+      if @image_path != "blank"
+        return @image_path["url"]
+      else
+      'capybarawontseeitanyway.jpg'
     end
   end
 end
