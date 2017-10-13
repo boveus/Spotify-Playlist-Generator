@@ -1,5 +1,6 @@
 class SearchController < ApplicationController
   before_action :authenticate_user!
+  before_action :validate_current_user_auth_token
 
   def index
     @type = search_params["type"]

@@ -1,5 +1,6 @@
 class DashboardController < ApplicationController
   before_action :authenticate_user!
+  before_action :validate_current_user_auth_token
 
   def index
     token = current_user.token
