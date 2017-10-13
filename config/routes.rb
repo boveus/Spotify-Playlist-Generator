@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get '/dashboard/create_playlist', as: :new_search, to: 'search#new'
   get '/dashboard/create_playlist/choose_attributes', as: :create_playlist, to: 'playlist#new'
   post '/dashboard/create_playlist/', to: 'playlist#add'
+  post '/dashboard/remove_seed', to: 'playlist#remove', as: 'remove_seed'
   get '/dashboard/top_artists', as: :top_artists, to: 'dashboard#top_artists'
   get '/dashboard/top_tracks', as: :top_tracks, to: 'dashboard#top_tracks'
   get '/user/logout', as: :user_logout, to: 'dashboard#logout'

@@ -30,7 +30,7 @@ feature "An authenticated user can create a playlist" do
 
   expect(page).to have_css("#spotify_search")
 
-  fill_in "Search for artist, album, or song:", :with => 'Michael Jackson'
+  fill_in "Search for artist or song:", :with => 'Michael Jackson'
 
   click_button "Search"
 

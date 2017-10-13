@@ -11,13 +11,22 @@ class PlaylistController < ApplicationController
   def new
   end
 
+  def remove
+    seeds.delete_at(params["index"].to_i)
+    redirect_to root_path
+    flash[:notice] = "Seed successfully removed."
+  end
+
   def add
-    if seeds.uniq.length < 5
+    if seeds.include?(seed_params)
+      flash[:notice] =  "You've already added #{seed_params["name"]}"
+    elsif seeds.uniq.length < 5
       seeds.append(seed_params.to_h)
+      flash[:notice] =  "Successfully added #{seed_params["name"]}"
     else
       flash[:error] = "You can only have five items in your seed list."
     end
-    redirect_back(fallback_location: root_path)
+    redirect_to root_path
   end
 
   private

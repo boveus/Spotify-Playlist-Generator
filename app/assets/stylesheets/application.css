@@ -60,6 +60,43 @@
   font-weight: bold;
   color: black;
 }
+
+.circleimg {
+   border-radius: 50%;
+}
+
+.notice {
+  overflow: hidden;
+  z-index: 999;
+  border: 1px solid black;
+  outline-color: black;
+  top: 30%;
+  left: 50%;
+  background-color: rgba(161,195,0,1);
+  color: black;
+  padding: 9px 0;
+  text-shadow: rgba(99,130,0,.30) 1px 1px 1px;
+  font-size: 21px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.error {
+  overflow: hidden;
+  z-index: 999;
+  border: 1px solid black;
+  outline-color: black;
+  top: 30%;
+  left: 50%;
+  background-color: rgba(194,0,1,1);
+  color: black;
+  padding: 9px 0;
+  text-shadow: rgba(99,130,0,.30) 1px 1px 1px;
+  font-size: 21px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .main {
   float:left;
   width:60%;

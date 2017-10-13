@@ -4,6 +4,7 @@
     <title> Spotify Playlist Generator </title>
     <%= csrf_meta_tags %>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
   </head>
@@ -23,7 +24,6 @@
         <div class="menuitem"><%= link_to "Search Spotify", new_search_path, class: "link_text" %></div>
         <div class="menuitem"><%= link_to "Top 20 Artists", top_artists_path, class: "link_text" %></div>
         <div class="menuitem"><%= link_to "Top 20 Tracks", top_tracks_path, class: "link_text" %></div>
-
       </div>
 
       <div class="main">
@@ -36,10 +36,12 @@
       <div class="right">
         <h2>Current Seeds</h2>
         <% if seeds && seeds.first %>
-          <% seeds.each_with_index do |result, index| %>
+          <% seeds.uniq.each_with_index do |result, index| %>
           <tr>
             <% num = index + 1 %>
              <td><%= "#{num}) #{result["type"]} - #{result["name"]}" %>
+               <%= button_to 'Remove', remove_seed_path, params: { :index => index }, class: "link_text"%>
+             </td>
              <br />
           </tr>
           <% end %>

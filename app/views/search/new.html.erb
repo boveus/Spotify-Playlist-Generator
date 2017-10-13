@@ -1,7 +1,7 @@
 <h3>Search</h3>
 <%= form_tag(new_seeds_path, :method => "post", :id => "spotify_search") do %>
-  <%= label_tag(:q, "Search for artist, album, or song:") %>
+  <%= label_tag(:q, "Search for artist or song:") %>
   <%= text_field_tag(:q) %>
-  <%= select_tag "type", options_for_select(['Artist', 'Track', 'Album']) %>
+  <%= select_tag "type", options_for_select(['Artist', 'Track']) %>
   <%= submit_tag("Search") %>
 <% end %>

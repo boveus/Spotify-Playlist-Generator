@@ -17,7 +17,7 @@ class Track
     if @image_path != "blank"
       return @image_path["url"]
     else
-    return 'capybarawontseeitanyway.jpg'
+      return 'capybarawontseeitanyway.jpg'
     end
   end
   def params
