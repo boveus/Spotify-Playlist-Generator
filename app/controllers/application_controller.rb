@@ -7,6 +7,10 @@ class ApplicationController < ActionController::Base
     @current_user ||= User.find_by_id(session[:user_id])
   end
 
+  def token
+    current_user.token
+  end
+
   def seeds
     @seeds ||= session[:seeds]
   end
