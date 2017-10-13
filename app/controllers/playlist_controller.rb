@@ -13,7 +13,7 @@ class PlaylistController < ApplicationController
 
   def add
     if seeds.uniq.length < 5
-      seeds.append(seed_params[:artist_id])
+      seeds.append(seed_params.to_h)
     else
       flash[:error] = "You can only have five items in your seed list."
     end
@@ -31,6 +31,6 @@ class PlaylistController < ApplicationController
   end
 
   def seed_params
-    params.permit(:seed)
+    params.permit(:name, :image_path, :seed, :type)
   end
 end

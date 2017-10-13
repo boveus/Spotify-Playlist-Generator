@@ -15,7 +15,14 @@ class Artist
       if @image_path != "blank"
         return @image_path["url"]
       else
-      'capybarawontseeitanyway.jpg'
+      return 'capybarawontseeitanyway.jpg'
+      end
     end
+  def params
+    {
+      :name => @name,
+      :seed => @artist_id,
+      :type => "Artist"
+    }
   end
 end

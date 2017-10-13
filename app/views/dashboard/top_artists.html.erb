@@ -4,7 +4,7 @@
   <% num = index + 1 %>
     <%= image_tag artist.image_path, size: '50x50' %>
    <td class=top_artist id=top_artist_<%= num %>><%= num %> : <%= artist.name %>
-     <%= button_to "Add Artist To List", params: {'seed' => artist.artist_id}, action: "add", controller: "playlist" %></td>
+     <%= button_to "Add Artist To List", params: artist.params, action: "add", controller: "playlist" %></td>
    <br />
 </tr>
 <% end %>

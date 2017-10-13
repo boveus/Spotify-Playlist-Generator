@@ -17,7 +17,14 @@ class Track
     if @image_path != "blank"
       return @image_path["url"]
     else
-    'capybarawontseeitanyway.jpg'
+    return 'capybarawontseeitanyway.jpg'
     end
+  end
+  def params
+    {
+      :name => @name,
+      :seed => @track_id,
+      :type => "Track"
+    }
   end
 end

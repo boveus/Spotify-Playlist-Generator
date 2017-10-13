@@ -5,9 +5,9 @@
     <%= image_tag result.image, size: '50x50' %>
    <td class=top_artist id=top_artist_<%= num %>><%= num %> : <%= result.name %>
     <% if @type == 'Track' %>
-     <%= button_to "Add Track To List", params: {'seed' => result.track_id}, action: "add", controller: "playlist" %>
+     <%= button_to "Add Track To List", params: result.params, action: "add", controller: "playlist" %>
     <% else %>
-     <%= button_to "Add Artist To List", params: {'seed' => result.artist_id}, action: "add", controller: "playlist" %>
+     <%= button_to "Add Artist To List", params: result.params, action: "add", controller: "playlist" %>
     <% end %>
    </td>
    <br />

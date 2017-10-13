@@ -14,8 +14,16 @@ feature "An authenticated user can create artist seeds to make a playlist" do
 
   expect(page).to have_content("Michael Jackson")
 
-  click_on('Add Artist To List', match: :first)
+  within page.all('.button_to')[0] do
+    click_on 'Add Artist To List'
+  end
+  within page.all('.button_to')[1] do
+    click_on 'Add Artist To List'
+  end
 
   expect(current_path).to eq(choose_seeds_path)
+
+  expect(page).to have_content("1) Artist - Michael Jackson")
+  expect(page).to have_content("2) Artist - Jackson Michael")
   end
 end

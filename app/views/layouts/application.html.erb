@@ -34,8 +34,16 @@
       </div>
 
       <div class="right">
-        <h2>Instructions</h2>
-        <p>Select up to 5 tracks or artists, and then go to create playlist to generate a new playlist based on your selections</p>
+        <h2>Current Seeds</h2>
+        <% if seeds && seeds.first %>
+          <% seeds.each_with_index do |result, index| %>
+          <tr>
+            <% num = index + 1 %>
+             <td><%= "#{num}) #{result["type"]} - #{result["name"]}" %>
+             <br />
+          </tr>
+          <% end %>
+        <% end %>
       </div>
     </div>
     <div style="background-color:#1db954;text-align:center;padding:10px;margin-top:7px;"> footer </div>
